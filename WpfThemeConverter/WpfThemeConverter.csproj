@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>WpfThemeConverter</RootNamespace>
+    <AssemblyName>WpfThemeConverter</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>Automint Ltd</Authors>
+    <Description>Converts Fluent XAML Theme Editor UWP exports to WPF-compatible Theme.xaml files</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+</Project>
